@@ -6,6 +6,9 @@
       "case_sensitive": true
   },
 
+"Type": {
+      "pattern": ["^type$"]
+  },
 "Modified": {
       "pattern": ["^metadata_modified$"]
   },
@@ -48,8 +51,7 @@
 
 
 "Formats": {
-      "pattern": ["^resources$", "^format$"],
-      "deduplicate": true
+      "pattern": ["^resources$", "^format$"]
   },
 
 
