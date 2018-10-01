@@ -1,0 +1,87 @@
+{
+
+"UUID": {
+      "pattern": "^id$",
+      "unique": true,
+      "case_sensitive": true
+  },
+
+"DatasetURI": {
+      "pattern": ["^name$"],
+      "unique": true
+  },
+
+"Title": {
+      "pattern": "^title$",
+      "unique": true,
+      "case_sensitive": true
+  },
+
+"Author": {
+      "pattern": "^author$",
+      "case_sensitive": true
+  },
+
+"Publisher": {
+      "pattern": "^maintainer$",
+      "case_sensitive": true
+  },
+
+"Description": {
+      "pattern": "^notes$",
+      "unique": true,
+      "case_sensitive": true
+  },
+
+"Information Page": {
+      "pattern": "^urlr$",
+      "case_sensitive": true
+  },
+
+"Status": {
+      "pattern": "^state$"
+  },
+
+"Date Issued": {
+      "pattern": ["^metadata_created$"]
+  },
+
+"Modified": {
+      "pattern": ["^metadata_modified$"]
+  },
+
+"Type": {
+      "pattern": ["^type$"]
+  },
+
+"FileId": {
+      "pattern": ["^resources$", "^id$"]
+  }
+
+"Links": {
+      "pattern": ["^resources$", "^url$"]
+  }
+
+"Formats": {
+      "pattern": ["^resources$", "^format$"]
+  },
+
+"FileName": {
+      "pattern": ["^resources$", "^name$"]
+  },
+
+"TopicCategory": {
+      "pattern": ["^groups$", "^name$"],
+      "deduplicate": true
+  },
+
+"Thumbnail": {
+      "pattern": ["^groups$", "^image_display_url$"]
+  },
+
+"GroupTitle": {
+      "pattern": ["^groups$", "^title$"]
+  }
+
+
+}
