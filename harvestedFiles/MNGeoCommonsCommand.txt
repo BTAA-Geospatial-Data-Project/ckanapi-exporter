@@ -1,0 +1,1 @@
+ckanapi-exporter --url 'https://gisdata.mn.gov/' --columns 05a-01_columns.json > 05a-01_20180219.csv
